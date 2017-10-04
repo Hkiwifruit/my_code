@@ -1,0 +1,12 @@
+gcc -o client client.c
+client.c: In function ‘main’:
+client.c:42: error: ‘struct pollfd’ has no member named ‘revent’
+client.c:44: error: ‘POLLRDHUP’ undeclared (first use in this function)
+client.c:44: error: (Each undeclared identifier is reported only once
+client.c:44: error: for each function it appears in.)
+client.c:45: error: ‘struct pollfd’ has no member named ‘revent’
+client.c:53: error: ‘fds’ undeclared (first use in this function)
+client.c:70: error: ‘SPLICE_F_MODE’ undeclared (first use in this function)
+client.c:70: error: ‘SPLICE_F_MOVE’ undeclared (first use in this function)
+client.c:72: error: ‘SPLICE_F_MORE’ undeclared (first use in this function)
+make: *** [client] Error 1

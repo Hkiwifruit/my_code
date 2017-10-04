@@ -1,0 +1,7 @@
+.PHONY:clean
+
+FLAGS=-lpthread
+
+
+
+
